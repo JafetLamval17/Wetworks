@@ -1,0 +1,64 @@
+type: itemTurret
+name: Modified Wave
+description: A wave fitted with an automatic liquidifier.
+health: 1000
+size: 2
+range: 110
+reloadTime: 2
+category: turret
+rotateSpeed: 5.0
+alwaysUnlocked: false
+research: wave
+shootSound: quietspray
+recoilAmount: 0
+acceptCoolant: false
+inaccuracy: 5
+maxAmmo: 48
+ammoPerShot: 1
+ammoTypes: {
+    icelock: {
+        type: liquidBulletType
+        damage: 0
+        liquid: water
+        knockback: 0.7
+        speed: 2.5
+        lifetime: 40
+        ammoMultiplier: 12
+        status: wet
+    }
+    cryostal: {
+        type: liquidBulletType
+        damage: 0
+        liquid: cryofluid
+        knockback: 0.55
+        speed: 2.5
+        lifetime: 40
+        ammoMultiplier: 12
+        status: freezing
+    }    
+    oil-packet: {
+        type: liquidBulletType
+        damage: 0
+        liquid: oil
+        knockback: 0.55
+        speed: 2.5
+        lifetime: 40
+        ammoMultiplier: 12
+        status: tarred
+    }
+    slagtite: {
+        type: liquidBulletType
+        damage: 4
+        liquid: slag
+        knockback: 0.55
+        speed: 2.5
+        lifetime: 40
+        ammoMultiplier: 12
+        status: melting
+    }
+}
+requirements: [
+    lead/90
+    metaglass/60
+    
+]

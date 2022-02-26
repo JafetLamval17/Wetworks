@@ -1,0 +1,9 @@
+name: Chargelead
+description: Lead that has been charged with a comically large amount of power.
+cost: 4
+hardness: 1
+flammability: 0
+radioactivity: 0
+charge: 1
+color: ffdd00
+research: lead

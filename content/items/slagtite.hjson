@@ -1,0 +1,8 @@
+name: Slagtite
+description: Slag that has been encased in minerals so perfectly it will stay hot for approximately a thousand years.
+cost: 1
+hardness: 1
+flammability: 0.5
+radioactivity: 0
+color: ff6200
+research: slag

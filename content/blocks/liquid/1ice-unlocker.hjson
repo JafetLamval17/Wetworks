@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Ice Unlocker
+description: Unlocks and melts icelock into water.
+size: 1
+hasItems: true
+hasLiquids: true
+outputsLiquid: true
+liquidCapacity: 60
+liquidPressure: 10
+craftTime: 60
+consumes: { 
+  items: { 
+    items: [ 
+      icelock/1
+    ] 
+  } 
+}
+requirements: [
+	lead/30
+	metaglass/30
+]
+outputLiquid: { 
+  liquid: water
+  amount: 12
+}
+category: liquid
+research: 1icelocker

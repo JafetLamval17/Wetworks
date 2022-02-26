@@ -1,0 +1,71 @@
+type: itemTurret
+name: Modified Tsunami
+description: A tsunami fitted with an automatic liquidifier.
+health: 2250
+size: 3
+range: 190
+reloadTime: 2
+shots: 2
+category: turret
+rotateSpeed: 5.5
+alwaysUnlocked: false
+research: 3modified-wave
+shootSound: quietspray
+recoilAmount: 1
+acceptCoolant: false
+inaccuracy: 4
+maxAmmo: 48
+ammoPerShot: 1
+ammoTypes: {
+    icelock: {
+        type: liquidBulletType
+        damage: 0.2
+        liquid: water
+        knockback: 1.7
+        speed: 4
+        lifetime: 48
+        ammoMultiplier: 12
+        orbSize: 3
+        status: wet
+    }
+    cryostal: {
+        type: liquidBulletType
+        damage: 0.2
+        liquid: cryofluid
+        knockback: 1.3
+        speed: 4
+        lifetime: 48
+        ammoMultiplier: 12
+        orbSize: 3
+        status: freezing
+    }    
+    oil-packet: {
+        type: liquidBulletType
+        damage: 0.2
+        liquid: oil
+        knockback: 1.3
+        speed: 4
+        lifetime: 48
+        ammoMultiplier: 12
+        orbSize: 3
+        status: tarred
+    }
+    slagtite: {
+        type: liquidBulletType
+        damage: 4.75
+        liquid: slag
+        knockback: 1.3
+        speed: 4
+        lifetime: 48
+        ammoMultiplier: 12
+        orbSize: 3
+        status: melting
+    }
+}
+requirements: [
+    lead/450
+    metaglass/150
+    titanium/250
+    thorium/100
+    
+]

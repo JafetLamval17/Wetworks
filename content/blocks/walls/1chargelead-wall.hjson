@@ -1,0 +1,14 @@
+type: battery
+name: Chargelead wall
+description: Protects structures from enemy projectiles. Can store a small amount of power.
+size: 1
+health: 400
+hasPower: true
+consumes:{
+	powerBuffered: 500
+}
+requirements: [
+  chargelead/6
+]
+category: defense
+research: titanium-wall

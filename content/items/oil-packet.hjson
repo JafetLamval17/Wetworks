@@ -1,0 +1,8 @@
+name: Oil packet
+description: Oil encased in a plastic sphere made from itself. Pretty flammable but easy to transport.
+cost: 1
+hardness: 1
+flammability: 1
+radioactivity: 0
+color: 0f0f0f
+research: oil

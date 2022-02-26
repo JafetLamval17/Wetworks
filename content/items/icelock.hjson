@@ -1,0 +1,8 @@
+name: Icelock
+description: Water that has been locked into a solid state, preventing it from melting.
+cost: 1
+hardness: 1
+flammability: 0
+radioactivity: 0
+color: 264f91
+research: water

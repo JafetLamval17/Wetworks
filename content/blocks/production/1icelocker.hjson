@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Icelocker
+description: Locks water in a solid state, at a net loss of around 20% upon unlocking.
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+outputsItems: true
+drawLiquidLight: true
+color:1b639e
+liquidCapacity:30
+craftTime: 60
+consumes: {
+  power: 0.5
+  liquid: { 
+    liquid: water
+    amount: 0.25
+  }
+}
+
+requirements: [
+	lead/45
+	silicon/30
+	metaglass/30
+]
+outputItem: icelock/1
+category: crafting
+research: mechanical-pump

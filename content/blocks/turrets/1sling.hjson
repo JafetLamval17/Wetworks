@@ -1,0 +1,103 @@
+type: ItemTurret
+name: Sling
+description: Flings solidified items at enemies.
+health: 300
+size: 1
+range: 150
+reloadTime: 30
+category: turret
+rotateSpeed: 5.0
+alwaysUnlocked: false
+research: duo
+shootSound: artillery
+ammoUseEffect: casing1
+recoilAmount: 1
+inaccuracy: 0
+maxAmmo: 20
+ammoPerShot: 1
+targetAir: false
+shootShake: 0
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 5.0
+ammoTypes: {
+    icelock: {
+        type: basicBulletType
+        damage: 13
+        knockback: 1.0
+        speed: 7
+        width: 15
+        height: 15
+        lifetime: 25
+        ammoMultiplier: 3
+        frontColor: 7094fe
+        backColor: 323ea4
+        status: wet
+        shootEffect: shootBig
+    }
+    cryostal: {
+        type: basicBulletType
+        damage: 13
+        knockback: 1.0
+        speed: 7
+        width: 15
+        height: 15
+        lifetime: 25
+        ammoMultiplier: 3
+        frontColor: abe5ff
+        backColor: 659eb0
+        status: freezing
+        shootEffect: shootBig
+    }    
+    oil-packet: {
+        type: basicBulletType
+        damage: 11
+        knockback: 0.3
+        speed: 7
+        width: 15
+        height: 15
+        lifetime: 25
+        ammoMultiplier: 5
+        frontColor: 5d5d5d
+        backColor: 1d1d23
+        status: tarred
+        shootEffect: shootBig
+    }
+    slagtite: {
+        type: basicBulletType
+        damage: 15
+        knockback: 0.5
+        speed: 7
+        width: 15
+        height: 15
+        lifetime: 25
+        ammoMultiplier: 2
+        frontColor: ffb566
+        backColor: c5754a
+        status: melting
+        shootEffect: shootBig
+    }
+    chargelead: {
+        type: basicBulletType
+        damage: 10
+        knockback: 0.5
+        speed: 7
+        width: 15
+        height: 15
+        lifetime: 25
+        ammoMultiplier: 2
+        lightning: 2
+        lightningDamage: 15
+        lightningLenght: 30
+        lightningLenghtRand: 10
+        lightningColor: fb9567
+        frontColor: fb9567
+        backColor: d7b247
+        status: shocked
+        shootEffect: shootBig
+    }
+}
+requirements: [
+    copper/25
+    lead/10
+]

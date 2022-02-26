@@ -1,0 +1,8 @@
+name: Cryostal
+description: Cryofluid that has been crystalized, keeping it solid for, potentially, ages.
+cost: 1
+hardness: 1
+flammability: 0
+radioactivity: 0
+color: 1fbabf
+research: cryofluid

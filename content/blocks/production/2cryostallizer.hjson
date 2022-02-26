@@ -1,0 +1,31 @@
+type: genericCrafter
+name: Cryostallizer
+description: Crystallizes cryofluid, preserving it. Has a net loss of around 20% upon decrystallization.
+size: 2
+drawer: {
+  type: DrawSmelter
+}
+hasPower: true
+hasItems: true
+hasLiquids: true
+outputsItems: true
+drawLiquidLight: true
+color: 33bdcc
+liquidCapacity: 30
+craftTime: 60
+consumes: {
+  power: 0.5
+  liquid: { 
+    liquid: cryofluid
+    amount: 0.25
+  }
+}
+
+requirements: [
+	lead/60
+	titanium/45
+	metaglass/30
+]
+outputItem: cryostal/1
+category: crafting
+research: 1icelocker

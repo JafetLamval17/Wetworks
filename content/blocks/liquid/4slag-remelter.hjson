@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Slag remelter
+description: Remelts slag along with it's shell.
+size: 1
+hasItems: true
+hasLiquids: true
+outputsLiquid: true
+liquidCapacity: 60
+liquidPressure: 10
+craftTime: 60
+consumes: { 
+  items: { 
+    items: [ 
+      slagtite/1
+    ] 
+  } 
+}
+requirements: [
+	lead/30
+	metaglass/30
+]
+outputLiquid: { 
+  liquid: slag
+  amount: 12
+}
+category: liquid
+research: 4slag-encaser

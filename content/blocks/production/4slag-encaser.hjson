@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Slag Encaser
+description: Uses minerals present in slag to encase it, preserving it's temperature, resulting in a net loss of around 20% upon opening.
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+outputsItems: true
+drawLiquidLight: true
+color:fc9219
+liquidCapacity:30
+craftTime: 60
+consumes: {
+  power: 0.5
+  liquid: { 
+    liquid: slag
+    amount: 0.25
+  }
+}
+
+requirements: [
+	lead/50
+	graphite/35
+	metaglass/30
+]
+outputItem: slagtite/1
+category: crafting
+research: 1icelocker

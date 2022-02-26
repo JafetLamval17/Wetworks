@@ -1,0 +1,25 @@
+type: GenericSmelter
+name: Lead charger
+description: Concentrates massive ammounts of power into lead, creating Chargelead. 
+size: 2
+hasPower: true
+hasItems: true
+outputsItems: true
+craftTime: 300
+consumes: {
+  power: 4
+  items: {
+    items: [
+      lead/1
+    ]
+  }
+}
+
+requirements: [
+	lead/60
+	titanium/45
+	silicon/30
+]
+outputItem: chargelead/1
+category: crafting
+research: steam-generator
