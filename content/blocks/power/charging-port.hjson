@@ -1,26 +1,24 @@
-type: GenericSmelter
+type: ConsumeGenerator
 name: Charging port
-description: Extracts the power out of chargelead, leaving only lead behind.
+description: Extracts the power out of chargelead, with a 20% loss.
 size: 2
 hasPower: true
 hasItems: true
 unloadable: false
-outputsItems: true
-craftTime: 300
+outputsPower: true
 consumes: {
-  power: -3.5
   items: {
     items: [
       chargelead/1
     ]
   }
 }
-
+powerProduction: 4
+itemDuration: 300
 requirements: [
 	lead/55
 	titanium/45
 	silicon/35
 ]
-outputItem: lead/1
 category: power
 research: 5lead-charger

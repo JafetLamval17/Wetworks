@@ -8,11 +8,6 @@ outputsItems: true
 craftTime: 300
 consumes: {
   power: 4
-  items: {
-    items: [
-      lead/1
-    ]
-  }
 }
 
 requirements: [
