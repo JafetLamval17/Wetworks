@@ -7,7 +7,7 @@ hasItems: true
 outputsItems: true
 craftTime: 300
 consumes: {
-  power: 4
+  power: 5
 }
 
 requirements: [

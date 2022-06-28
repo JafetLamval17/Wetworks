@@ -1,4 +1,4 @@
-type: BurnerGenerator
+type: PowerGenerator
 name: Charging port
 description: Extracts the power out of chargelead, with a 20% loss.
 size: 2
