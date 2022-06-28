@@ -1,10 +1,8 @@
-type: ConsumeGenerator
+type: BurnerGenerator
 name: Charging port
 description: Extracts the power out of chargelead, with a 20% loss.
 size: 2
-hasPower: true
 hasItems: true
-unloadable: false
 outputsPower: true
 consumes: {
   items: {
