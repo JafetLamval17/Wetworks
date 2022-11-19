@@ -2,7 +2,7 @@ type: ItemTurret
 name: Catapult
 description: Pulverizes the solids and fires them.
 health: 300
-size: 2
+size: 3
 range: 150
 reloadTime: 45
 shots: 4
