@@ -4,14 +4,14 @@ description: Flings solidified items at enemies.
 health: 300
 size: 1
 range: 150
-reload: 30
+reload: 40
 category: turret
 rotateSpeed: 5.0
 alwaysUnlocked: false
 research: duo
 shootSound: artillery
 ammoUseEffect: casing1
-recoilAmount: 1
+recoil: 0.5
 inaccuracy: 0
 maxAmmo: 20
 ammoPerShot: 1

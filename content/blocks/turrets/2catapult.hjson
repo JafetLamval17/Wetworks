@@ -1,10 +1,10 @@
 type: ItemTurret
 name: Catapult
-description: Pulverizes the solids and fires them.
+description: Lobs splashing bullets out of solidified items.
 health: 300
 size: 2
 range: 150
-reload: 45
+reload: 60
 shots: 4
 alternate: false
 category: turret
@@ -13,12 +13,12 @@ alwaysUnlocked: false
 research: 1sling
 shootSound: artillery
 ammoUseEffect: casing1
-recoilAmount: 2
+recoil: 2
 inaccuracy: 3
 maxAmmo: 20
 ammoPerShot: 1
 targetAir: false
-shootShake: 1
+Shake: 1
 liquidCapacity: 10
 coolantUsage: 0.1
 coolantMultiplier: 5.0
@@ -31,6 +31,8 @@ ammoTypes: {
         width: 10
         height: 15
         lifetime: 40
+        splashDamage: 4
+        splashDamageRadius: 8
         ammoMultiplier: 1
         frontColor: 7094fe
         backColor: 323ea4
@@ -45,6 +47,8 @@ ammoTypes: {
         width: 10
         height: 15
         lifetime: 40
+        splashDamage: 4
+        splashDamageRadius: 8
         ammoMultiplier: 1
         frontColor: abe5ff
         backColor: 659eb0
@@ -59,6 +63,8 @@ ammoTypes: {
         width: 10
         height: 15
         lifetime: 40
+        splashDamage: 3
+        splashDamageRadius: 8
         ammoMultiplier: 2
         frontColor: 5d5d5d
         backColor: 1d1d23
@@ -73,6 +79,8 @@ ammoTypes: {
         width: 10
         height: 15
         lifetime: 40
+        splashDamage: 5
+        splashDamageRadius: 8
         ammoMultiplier: 1
         frontColor: ffb566
         backColor: c5754a
@@ -88,9 +96,9 @@ ammoTypes: {
         height: 15
         lifetime: 40
         ammoMultiplier: 1
-        lightning: 1
+        lightning: 4
         lightningDamage: 10
-        lightningLenght: 20
+        lightningLenght: 30
         lightningLenghtRand: 10
         lightningColor: fb9567
         frontColor: fb9567
