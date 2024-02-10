@@ -10,6 +10,7 @@ drawLiquidLight: true
 color: 0f0f0f
 liquidCapacity:30
 craftTime: 60
+craftEffect: mineBig
 consumes: {
   power: 0.5
   liquid: { 

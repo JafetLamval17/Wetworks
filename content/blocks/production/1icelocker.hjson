@@ -2,7 +2,6 @@ type: GenericCrafter
 name: Icelocker
 description: Locks water in a solid state, at a net loss of around 20% upon unlocking.
 size: 2
-deconstructDropAllLiquid: true
 hasPower: true
 hasItems: true
 hasLiquids: true
@@ -11,7 +10,7 @@ drawLiquidLight: true
 color:1b639e
 liquidCapacity:30
 craftTime: 60
-hasConsumers: true
+craftEffect: mineBig
 consumes: {
   power: 0.5
   liquid: { 
