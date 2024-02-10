@@ -19,9 +19,6 @@ consumes: {
     amount: 0.25
   }
 }
-drawer: {
-    type: DrawArcSmelt
-}
 requirements: [
 	lead/45
 	silicon/30
