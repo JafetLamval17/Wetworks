@@ -21,7 +21,7 @@ requirements: [
 ]
 outputLiquid: { 
   liquid: cryofluid
-  amount: 12
+  amount: 0.2
 }
 category: liquid
 research: 2cryostallizer

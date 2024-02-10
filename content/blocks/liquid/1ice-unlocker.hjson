@@ -21,7 +21,7 @@ requirements: [
 ]
 outputLiquid: { 
   liquid: water
-  amount: 0.5
+  amount: 0.2
 }
 category: liquid
 research: 1icelocker
