@@ -27,10 +27,10 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 8
         knockback: 1.0
-        speed: 10
+        speed: 5
         width: 10
         height: 15
-        lifetime: 20
+        lifetime: 40
         ammoMultiplier: 1
         frontColor: 7094fe
         backColor: 323ea4
@@ -41,10 +41,10 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 8
         knockback: 1.0
-        speed: 10
+        speed: 5
         width: 10
         height: 15
-        lifetime: 20
+        lifetime: 40
         ammoMultiplier: 1
         frontColor: abe5ff
         backColor: 659eb0
@@ -55,10 +55,10 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 7
         knockback: 0.3
-        speed: 10
+        speed: 5
         width: 10
         height: 15
-        lifetime: 20
+        lifetime: 40
         ammoMultiplier: 2
         frontColor: 5d5d5d
         backColor: 1d1d23
@@ -69,10 +69,10 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 10
         knockback: 0.5
-        speed: 10
+        speed: 5
         width: 10
         height: 15
-        lifetime: 20
+        lifetime: 40
         ammoMultiplier: 1
         frontColor: ffb566
         backColor: c5754a
@@ -83,10 +83,10 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 6
         knockback: 0.5
-        speed: 10
+        speed: 5
         width: 10
         height: 15
-        lifetime: 20
+        lifetime: 40
         ammoMultiplier: 1
         lightning: 1
         lightningDamage: 10
