@@ -6,11 +6,11 @@ hasPower: true
 hasItems: true
 outputsItems: true
 craftTime: 300
+craftEffect: formsmoke
 consumes: {
   power: 5
 items: { 
-    items: lead
-    amount: 1
+    lead/1
   }
 }
 
