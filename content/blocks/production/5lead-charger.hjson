@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Lead charger
 description: Concentrates massive ammounts of power into lead, creating Chargelead. 
 size: 2
@@ -8,6 +8,10 @@ outputsItems: true
 craftTime: 300
 consumes: {
   power: 5
+item: { 
+    item: lead
+    amount: 1
+  }
 }
 
 requirements: [

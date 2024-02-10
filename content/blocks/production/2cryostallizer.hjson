@@ -14,7 +14,7 @@ color: 33bdcc
 liquidCapacity: 30
 craftTime: 60
 consumes: {
-  power: 0.5
+  power: 0.6
   liquid: { 
     liquid: cryofluid
     amount: 0.25

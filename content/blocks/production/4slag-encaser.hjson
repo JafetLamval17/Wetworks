@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Slag Encaser
 description: Uses minerals present in slag to encase it, preserving it's temperature, resulting in a net loss of around 20% upon opening.
 size: 2
@@ -11,7 +11,7 @@ color:fc9219
 liquidCapacity:30
 craftTime: 60
 consumes: {
-  power: 0.5
+  power: 1
   liquid: { 
     liquid: slag
     amount: 0.25
