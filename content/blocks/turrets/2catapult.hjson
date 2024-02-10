@@ -27,7 +27,7 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 8
         knockback: 1.0
-        speed: 5
+        speed: 2
         width: 10
         height: 15
         lifetime: 40
@@ -41,7 +41,7 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 8
         knockback: 1.0
-        speed: 5
+        speed: 2
         width: 10
         height: 15
         lifetime: 40
@@ -55,7 +55,7 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 7
         knockback: 0.3
-        speed: 5
+        speed: 2
         width: 10
         height: 15
         lifetime: 40
@@ -69,7 +69,7 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 10
         knockback: 0.5
-        speed: 5
+        speed: 2
         width: 10
         height: 15
         lifetime: 40
@@ -83,7 +83,7 @@ ammoTypes: {
         type: artilleryBulletType
         damage: 6
         knockback: 0.5
-        speed: 5
+        speed: 2
         width: 10
         height: 15
         lifetime: 40
