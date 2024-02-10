@@ -24,7 +24,7 @@ coolantUsage: 0.1
 coolantMultiplier: 5.0
 ammoTypes: {
     icelock: {
-        type: basicBulletType
+        type: artilleryBulletType
         damage: 8
         knockback: 1.0
         speed: 10
@@ -38,7 +38,7 @@ ammoTypes: {
         shootEffect: shootBig
     }
     cryostal: {
-        type: basicBulletType
+        type: artilleryBulletType
         damage: 8
         knockback: 1.0
         speed: 10
@@ -52,7 +52,7 @@ ammoTypes: {
         shootEffect: shootBig
     }    
     oil-packet: {
-        type: basicBulletType
+        type: artilleryBulletType
         damage: 7
         knockback: 0.3
         speed: 10
@@ -66,7 +66,7 @@ ammoTypes: {
         shootEffect: shootBig
     }
     slagtite: {
-        type: basicBulletType
+        type: artilleryBulletType
         damage: 10
         knockback: 0.5
         speed: 10
@@ -80,7 +80,7 @@ ammoTypes: {
         shootEffect: shootBig
     }
     chargelead: {
-        type: basicBulletType
+        type: artilleryBulletType
         damage: 6
         knockback: 0.5
         speed: 10

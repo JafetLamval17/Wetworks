@@ -4,7 +4,7 @@ description: A tsunami fitted with an automatic liquidifier.
 health: 2250
 size: 3
 range: 190
-reloadTime: 2
+reload: 2
 shots: 2
 category: turret
 rotateSpeed: 5.5
