@@ -8,7 +8,7 @@ outputsItems: true
 craftTime: 300
 consumes: {
   power: 5
-item: { 
+items: { 
     item: lead
     amount: 1
   }
