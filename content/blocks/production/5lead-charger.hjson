@@ -8,10 +8,10 @@ outputsItems: true
 craftTime: 300
 craftEffect: formsmoke
 consumes: {
-  power: 5
-items: { 
-    lead/1
-  }
+    power: 5
+    items: [ 
+        lead/1
+  ]
 }
 
 requirements: [
