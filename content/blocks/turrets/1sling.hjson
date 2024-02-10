@@ -4,7 +4,7 @@ description: Flings solidified items at enemies.
 health: 300
 size: 1
 range: 150
-reloadTime: 30
+reload: 30
 category: turret
 rotateSpeed: 5.0
 alwaysUnlocked: false
