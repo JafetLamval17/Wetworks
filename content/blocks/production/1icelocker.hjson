@@ -1,7 +1,12 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Icelocker
 description: Locks water in a solid state, at a net loss of around 20% upon unlocking.
 size: 2
+destructible: true
+solid: true
+breakable: true
+placeableOn: false
+deconstructDropAllLiquid: true
 hasPower: true
 hasItems: true
 hasLiquids: true
@@ -10,6 +15,7 @@ drawLiquidLight: true
 color:1b639e
 liquidCapacity:30
 craftTime: 60
+hasConsumers: true
 consumes: {
   power: 0.5
   liquid: { 
