@@ -21,7 +21,7 @@ requirements: [
 ]
 outputLiquid: { 
   liquid: oil
-  amount: 12
+  amount: 0.2
 }
 category: liquid
 research: 3oil-plastifier

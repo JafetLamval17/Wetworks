@@ -21,7 +21,7 @@ requirements: [
 ]
 outputLiquid: { 
   liquid: slag
-  amount: 12
+  amount: 0.2
 }
 category: liquid
 research: 4slag-encaser
