@@ -9,7 +9,7 @@ craftTime: 300
 consumes: {
   power: 5
 items: { 
-    item: lead
+    items: lead
     amount: 1
   }
 }
