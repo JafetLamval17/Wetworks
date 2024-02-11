@@ -8,9 +8,8 @@ reload: 45
 category: turret
 rotateSpeed: 3.5
 alwaysUnlocked: false
-research: 1sling
-shootSound: artillery
-ammoUseEffect: casing1
+research: 2catapult
+shootSound: laser
 recoilAmount: 2
 inaccuracy: 3
 maxAmmo: 20
