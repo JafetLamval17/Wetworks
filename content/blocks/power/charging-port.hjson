@@ -1,8 +1,9 @@
-type: GenericCrafter
+type: PowerGenerator
 name: Charging port
 description: Extracts the power out of chargelead, with a 20% loss.
 size: 2
 hasItems: true
+hasPower: true
 outputsPower: true
 consumes: {
   items: {
