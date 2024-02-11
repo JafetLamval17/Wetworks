@@ -25,7 +25,7 @@ ammoTypes: {
         speed: 4
         lifetime: 48
         ammoMultiplier: 12
-        orbSize: 3
+        orbSize: 5
         status: wet
     }
     cryostal: {
@@ -36,7 +36,7 @@ ammoTypes: {
         speed: 4
         lifetime: 48
         ammoMultiplier: 12
-        orbSize: 3
+        orbSize: 5
         status: freezing
     }    
     oil-packet: {
@@ -47,7 +47,7 @@ ammoTypes: {
         speed: 4
         lifetime: 48
         ammoMultiplier: 12
-        orbSize: 3
+        orbSize: 5
         status: tarred
     }
     slagtite: {
@@ -58,7 +58,7 @@ ammoTypes: {
         speed: 4
         lifetime: 48
         ammoMultiplier: 12
-        orbSize: 3
+        orbSize: 5
         status: melting
     }
 }
