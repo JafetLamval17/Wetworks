@@ -21,7 +21,7 @@ ammoTypes: {
         damage: 0
         liquid: water
         knockback: 0.7
-        speed: 2.5
+        speed: 3
         lifetime: 40
         ammoMultiplier: 12
         status: wet
