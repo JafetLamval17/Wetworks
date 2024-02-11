@@ -5,6 +5,7 @@ size: 2
 hasItems: true
 hasPower: true
 outputsPower: true
+conductivePower: true
 consumes: {
   items: {
     items: [
