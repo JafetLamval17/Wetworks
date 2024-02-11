@@ -13,7 +13,7 @@ consumes: {
     ]
   }
 }
-powerProduction: 4
+powerProduction: 8
 itemDuration: 300
 requirements: [
 	lead/55
