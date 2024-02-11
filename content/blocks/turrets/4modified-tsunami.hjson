@@ -1,10 +1,10 @@
 type: itemTurret
 name: Modified Tsunami
-description: A tsunami fitted with an automatic liquidifier.
-health: 2250
+description: A tsunami fitted with a fragile automatic liquidifier.
+health: 2000
 size: 3
 range: 190
-reload: 2
+reload: 1.5
 shots: 2
 category: turret
 rotateSpeed: 5.5
