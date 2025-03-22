@@ -1,6 +1,4 @@
 type: itemTurret
-name: Modified Wave
-description: A wave fitted with a fragile automatic liquidifier.
 health: 800
 size: 2
 range: 110

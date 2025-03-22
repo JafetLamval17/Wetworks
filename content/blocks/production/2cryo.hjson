@@ -1,6 +1,4 @@
 type: genericCrafter
-name: Cryostallizer
-description: Crystallizes cryofluid, preserving it. Has a net loss of around 20% upon decrystallization.
 size: 2
 hasPower: true
 hasItems: true

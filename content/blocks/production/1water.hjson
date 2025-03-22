@@ -1,29 +1,26 @@
 type: GenericCrafter
-name: Slag Encaser
-description: Uses minerals present in slag to encase it, preserving it's temperature, resulting in a net loss of around 20% upon opening.
 size: 2
 hasPower: true
 hasItems: true
 hasLiquids: true
 outputsItems: true
 drawLiquidLight: true
-color:fc9219
+color:1b639e
 liquidCapacity:30
 craftTime: 60
 craftEffect: mineBig
 consumes: {
-  power: 1
+  power: 0.5
   liquid: { 
-    liquid: slag
+    liquid: water
     amount: 0.25
   }
 }
-
 requirements: [
-	lead/50
-	graphite/35
+	lead/45
+	silicon/30
 	metaglass/30
 ]
-outputItem: slagtite/1
+outputItem: icelock/1
 category: crafting
-research: 1icelocker
+research: mechanical-pump

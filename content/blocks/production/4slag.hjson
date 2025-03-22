@@ -1,28 +1,27 @@
 type: GenericCrafter
-name: Icelocker
-description: Locks water in a solid state, at a net loss of around 20% upon unlocking.
 size: 2
 hasPower: true
 hasItems: true
 hasLiquids: true
 outputsItems: true
 drawLiquidLight: true
-color:1b639e
+color:fc9219
 liquidCapacity:30
 craftTime: 60
 craftEffect: mineBig
 consumes: {
-  power: 0.5
+  power: 1
   liquid: { 
-    liquid: water
+    liquid: slag
     amount: 0.25
   }
 }
+
 requirements: [
-	lead/45
-	silicon/30
+	lead/50
+	graphite/35
 	metaglass/30
 ]
-outputItem: icelock/1
+outputItem: slagtite/1
 category: crafting
-research: mechanical-pump
+research: 1icelocker

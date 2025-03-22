@@ -1,6 +1,4 @@
 type: itemTurret
-name: Modified Tsunami
-description: A tsunami fitted with a fragile automatic liquidifier.
 health: 2000
 size: 3
 range: 190

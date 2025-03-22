@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Oil Plastifier
-description: Covers oil in a plastic sheath made from itself, resulting in a 20% net loss upon unsheathing.
 size: 2
 hasPower: true
 hasItems: true

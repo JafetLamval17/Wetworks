@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Sling
-description: Flings solidified items at enemies.
 health: 300
 size: 1
 range: 150

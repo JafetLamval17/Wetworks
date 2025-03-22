@@ -1,6 +1,4 @@
 type: ItemTurret
-name: Catapult
-description: Lobs splashing bullets out of solidified items.
 health: 300
 size: 2
 range: 150
@@ -10,7 +8,7 @@ alternate: false
 category: turret
 rotateSpeed: 3.5
 alwaysUnlocked: false
-research: 1sling
+research: 1small
 shootSound: artillery
 ammoUseEffect: casing1
 recoil: 2
