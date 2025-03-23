@@ -1,0 +1,111 @@
+type: ItemTurret
+health: 300
+size: 1
+range: 80
+reload: 40
+solid: false
+rebuildable: false
+targetable: false
+canOverdrive: false
+category: turret
+rotateSpeed: 720.0
+alwaysUnlocked: false
+research: shock-mine
+shootSound: artillery
+ammoUseEffect: casing1
+recoil: 0
+inaccuracy: 0
+maxAmmo: 10
+ammoPerShot: 10
+targetAir: false
+shootShake: 0
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 5.0
+ammoTypes: {
+    icelock: {
+        type: basicBulletType
+        damage: 10
+        knockback: 3.0
+        speed: 1
+        killShooter: true
+        width: 1
+        height: 1
+        lifetime: 1
+        ammoMultiplier: 1
+        splashDamageRadius: 20
+        frontColor: 7094fe
+        backColor: 323ea4
+        status: wet
+        shootEffect: shootBig
+    }
+    cryostal: {
+        type: basicBulletType
+        damage: 10
+        knockback: 3.0
+        speed: 1
+        killShooter: true
+        width: 1
+        height: 1
+        lifetime: 1
+        ammoMultiplier: 1
+        frontColor: abe5ff
+        backColor: 659eb0
+        status: freezing
+        shootEffect: shootBig
+    }    
+    oil-packet: {
+        type: basicBulletType
+        damage: 10
+        knockback: 3.0
+        speed: 1
+        killShooter: true
+        width: 1
+        height: 1
+        lifetime: 1
+        ammoMultiplier: 1
+        frontColor: 5d5d5d
+        backColor: 1d1d23
+        status: tarred
+        shootEffect: shootBig
+    }
+    slagtite: {
+        type: basicBulletType
+        damage: 10
+        knockback: 3.0
+        speed: 1
+        killShooter: true
+        width: 1
+        height: 1
+        lifetime: 1
+        ammoMultiplier: 1
+        frontColor: ffb566
+        backColor: c5754a
+        status: melting
+        shootEffect: shootBig
+    }
+    chargelead: {
+        type: basicBulletType
+        damage: 10
+        knockback: 3.0
+        speed: 1
+        killShooter: true
+        width: 1
+        height: 1
+        lifetime: 1
+        ammoMultiplier: 1
+        lightning: 7
+        lightningDamage: 15
+        lightningLenght: 80
+        lightningLenghtRand: 10
+        lightningColor: fb9567
+        frontColor: fb9567
+        backColor: d7b247
+        status: shocked
+        shootEffect: shootBig
+    }
+}
+requirements: [
+    copper/25
+    lead/10
+]

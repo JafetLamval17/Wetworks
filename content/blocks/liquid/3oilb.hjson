@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Oil press
-description: Extracts oil from its plastic shell.
 size: 1
 hasItems: true
 hasLiquids: true
@@ -24,4 +22,4 @@ outputLiquid: {
   amount: 0.2
 }
 category: liquid
-research: 3oil-plastifier
+research: 3oil

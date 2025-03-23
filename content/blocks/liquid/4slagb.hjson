@@ -1,6 +1,4 @@
 type: GenericCrafter
-name: Slag remelter
-description: Remelts slag along with it's shell.
 size: 1
 hasItems: true
 hasLiquids: true
@@ -24,4 +22,4 @@ outputLiquid: {
   amount: 0.2
 }
 category: liquid
-research: 4slag-encaser
+research: 4slag

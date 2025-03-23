@@ -1,8 +1,7 @@
 type: battery
-name: Chargelead wall
-description: Protects structures from enemy projectiles. Can store a small amount of power.
 size: 1
 health: 400
+buildCostMultiplier: 2
 hasPower: true
 consumes:{
 	powerBuffered: 500
