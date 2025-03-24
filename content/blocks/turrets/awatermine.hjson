@@ -40,8 +40,6 @@ shootType: basicBulletType
     backColor: 323ea4
     status: wet
     shootEffect: shootBig
-    }
-}
 requirements: [
     copper/5
     lead/10

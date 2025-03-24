@@ -38,8 +38,6 @@ shootType: basicBulletType
     scaledSplashDamage: true
     status: melting
     shootEffect: shootBig
-    }
-}
 requirements: [
     copper/5
     lead/10

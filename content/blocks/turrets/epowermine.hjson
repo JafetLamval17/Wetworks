@@ -43,10 +43,8 @@ shootType: basicBulletType
     scaledSplashDamage: true
     status: shocked
     shootEffect: shootBig
-    }
-}
 requirements: [
     copper/5
     lead/10
-    slagtite/20
+    chargelead/20
 ]
