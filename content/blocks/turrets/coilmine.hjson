@@ -1,0 +1,49 @@
+type: PowerTurret
+health: 300
+size: 1
+range: 20
+reload: 40
+solid: false
+rebuildable: false
+targetable: false
+canOverdrive: false
+category: effect
+shootCone: 360.0
+category: turret
+rotateSpeed: 0
+alwaysUnlocked: false
+research: shock-mine
+shootSound: artillery
+ammoUseEffect: casing1
+recoil: 0
+inaccuracy: 0
+maxAmmo: 10
+ammoPerShot: 10
+targetAir: false
+shootShake: 0
+liquidCapacity: 10
+coolantUsage: 0.1
+coolantMultiplier: 5.0
+shootType
+  {
+    type: basicBulletType
+    damage: 0
+    knockback: 3.0
+    speed: 1
+    killShooter: true
+    width: 1
+    height: 1
+    lifetime: 1
+    ammoMultiplier: 1
+    splashDamage: 10
+    splashDamageRadius: 20
+    scaledSplashDamage: true
+    status: tarred
+    shootEffect: shootBig
+    }
+}
+requirements: [
+    copper/5
+    lead/10
+    oil-packet/20
+]
