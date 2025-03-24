@@ -1,14 +1,15 @@
 type: ItemTurret
 health: 300
 size: 1
-range: 80
+range: 20
 reload: 40
 solid: false
 rebuildable: false
 targetable: false
 canOverdrive: false
+shootCone: 360.0
 category: turret
-rotateSpeed: 720.0
+rotateSpeed: 0
 alwaysUnlocked: false
 research: shock-mine
 shootSound: artillery
