@@ -24,7 +24,6 @@ shootShake: 0
 liquidCapacity: 10
 coolantUsage: 0.1
 coolantMultiplier: 5.0
-shootType: basicBulletType
     damage: 0
     knockback: 3.0
     speed: 1
